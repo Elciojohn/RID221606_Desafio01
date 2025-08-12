@@ -1,0 +1,135 @@
+*{
+
+    margin: 0px;
+    font-family: "inter";
+
+    #Titulo-superior{
+
+        color: aliceblue;
+        margin-left: 62px;
+        margin-bottom: 15px;
+        padding-top: 100px;
+        
+
+         }
+
+    #texto-superior{
+
+        color: #F9F9F9;
+        margin-left: 62px;
+        padding-bottom: 100px;
+        
+       
+
+
+  }
+
+  #menu-superior{
+
+    background-color: #303030;
+    color: #303030;
+
+
+  }
+
+ .estatisticas {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: "inter";
+}
+
+.estatisticas .item h2 {
+  font-size: 28px;
+  color: #000;
+  margin-right: 20px;
+}
+
+.estatisticas .item p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 15px;
+
+  }
+
+  /* Seção Sobre */
+.sobre {
+  display: flex;         /* Coloca os dados lado a lado (texto + imagem) */
+  flex-wrap: wrap;       /* Permite quebrar linha se faltar espaço */
+  align-items: center;   /* Alinha verticalmente ao centro */
+  padding: 60px 20px;    /* Espaço interno em cima/baixo e nas laterais */
+  gap: 40px;             /* Espaço entre os itens (texto e imagem) */
+  max-width: 1200px;     /* Largura máxima do bloco */
+  margin: auto;          /* Centraliza horizontalmente o bloco na tela */
+}
+
+
+.sobre .texto {
+  flex: 1;
+  margin-top: 20px;
+}
+
+#texto-inferior{
+
+    margin-top: 20px;
+}
+
+.sobre .imagem {
+  flex: 1;
+  width: 510px;
+}
+
+.sobre .imagem img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+  /* Formulário */
+.formulario {
+  background-color: #303030;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.formulario h1 {
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 12px;
+  background-color: #d38f36;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #b3752c;
+}
+    
+
+
+
+
+
+
+}
